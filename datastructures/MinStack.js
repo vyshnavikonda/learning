@@ -1,5 +1,5 @@
 /**
-* Initialize a stack row
+* Initialize a min stack row
 */
 var StackRow = function(){
     this.value = null;
@@ -7,7 +7,7 @@ var StackRow = function(){
 };
 
 /**
- * initialize your data structure here.
+ * Initialize new Min Stack
  */
 
 var MinStack = function() {
