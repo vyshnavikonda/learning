@@ -1,7 +1,7 @@
 function BinarySearch(input, element){
 	let start = 0, end = input.length - 1;
 	while(start <= end){
-		let mid = Math.floor((start + end) / 2);
+		let mid = Math.floor(start + (end - start) / 2);
 		if(element === input[mid] ){
 			return mid;
 		} else if(element < input[mid]){
